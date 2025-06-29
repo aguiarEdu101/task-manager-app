@@ -1,0 +1,43 @@
+{
+    "expo": {
+        "name": "task-manager-app",
+        "slug": "task-manager-app",
+        "owner": "SEU_EXPO_USERNAME",
+        "version": "1.0.1",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "newArchEnabled": true,
+        "splash": {
+            "image": "./assets/splash-icon.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "edgeToEdgeEnabled": true,
+            "package": "com.SEU_EXPO_USERNAME.APP_SLUG"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "googleWebClientId": "SEU_CLIENT_ID_WEB_AQUI.apps.googleusercontent.com",
+            "googleAndroidClientId": "SEU_CLIENT_ID_WEB_AQUI.apps.googleusercontent.com",
+            "googleIosClientId": "SEU_CLIENT_ID_WEB_AQUI.apps.googleusercontent.com",
+            "eas": {
+                "projectId": "SEU_EXPO_PROJECT_ID_AQUI"
+            }
+        },
+        "runtimeVersion": "1.0.1"
+    },
+    "updates": {
+        "url": "https://u.expo.dev/5b178be0-00e0-4046-890c-83db9186b0c2"
+    }
+}
